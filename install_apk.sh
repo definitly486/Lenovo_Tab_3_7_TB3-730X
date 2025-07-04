@@ -12,6 +12,6 @@ cd apk
 
   for i in $(cat ../apk_list ); do
 
-        su - root -c  'pm install  $DIR/apk/$i'
+        su - root -c  "pm install  $DIR/apk/$i"
 
 done
