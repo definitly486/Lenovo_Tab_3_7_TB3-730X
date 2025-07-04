@@ -1,7 +1,7 @@
 #!/bin/sh
 dir=$(dirname "$(realpath $0)")
 
-  for i in $(cat $dir/apk_list ); do
+  for i in $(cat apk_list ); do
 
              pm uninstall --user 0   $i 
 
