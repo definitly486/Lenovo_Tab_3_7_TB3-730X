@@ -6,3 +6,4 @@ dir=$(dirname "$(realpath $0)")
        su - root -c  "pm uninstall --user 0   $i"
 
 done
+
