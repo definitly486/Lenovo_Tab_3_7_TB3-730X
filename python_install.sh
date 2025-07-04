@@ -2,7 +2,7 @@
 #dpkg -i ./python_3.9.7_arm.deb
 
 
-wget https://www.python.org/ftp/python/3.9.23/Python-3.9.23.tgz
+curl -L -o Python-3.9.23.tgz  https://www.python.org/ftp/python/3.9.23/Python-3.9.23.tgz
 tar xzf Python-3.9.23.tgz
 cd Python-3.9.23
 
