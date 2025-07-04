@@ -1,4 +1,4 @@
-#!/bin/sh
+
 dir=$(dirname "$(realpath $0)")
 
   for i in $(cat apk_list ); do
