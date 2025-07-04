@@ -10,6 +10,6 @@ fi
 
   for i in $(cat apk_list ); do
 
-             pm install  $i 
+             pm install  apk/$i 
 
 done
