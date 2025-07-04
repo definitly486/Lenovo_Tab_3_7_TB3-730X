@@ -9,7 +9,7 @@ fi
 
 cd apk
 
-  for i in $(cat apk_list ); do
+  for i in $(cat ../apk_list ); do
 
              pm install  $i 
 
