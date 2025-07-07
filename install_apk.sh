@@ -10,10 +10,10 @@ if ! [  -d "apk" ]; then
      tar xf apk.tar.xz 
 fi 
 
-cd apk
+
 
   for i in $(cat /data/data/com.termux/files/home/Lenovo_Tab_3_7_TB3-730X-main/apk_list ); do
 
-        su - root -c  "pm install  /data/data/com.termux/files/home/storage/downloads/apk/$i"
+        su - root -c  "pm install  $DIR/apk/$i"
 
 done
