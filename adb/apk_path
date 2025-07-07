@@ -6,21 +6,24 @@
 /system/app/Chrome/
 /system/app/Photos/
 /system/app/talkback/
-
-
 /system/app/Gmail_signed_58120066_6.0.115234454.release/
 /system/app/ExchangeGoogle_signed_506160_6.0.115234829.release/
 
 
+/system/app/LenovoTab3ePOS/
+/system/priv-app/LSF-User-Pad-RoW/
+/system/priv-app/LSF-Device-Pad-RoW/
 
+
+
+
+/system/app/HoloSpiralWallpaper/
+/system/app/LiveWallpapersPicker/
+/system/app/LiveWallpapers/
+/system/app/NoiseField/
 /system/priv-app/MusicFX/
-
 /system/vendor/operator/app/Yandex/
 /system/vendor/operator/app/yandex_web/
-
-
 /system/app/CalendarGoogle/
 /system/priv-app/GoogleBackupTransport/
-
-
 /system/vendor/operator/app/LenovoMMS_Dbuild/
