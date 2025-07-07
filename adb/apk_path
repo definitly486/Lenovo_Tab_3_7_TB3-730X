@@ -2,6 +2,11 @@
 /system/app/Music2/
 /system/app/Drive/
 /system/app/Maps/
+/system/app/Videos/
+
 
 /system/vendor/operator/app/Yandex/
 /system/vendor/operator/app/yandex_web/
+
+
+/system/vendor/operator/app/LenovoMMS_Dbuild/
