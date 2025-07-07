@@ -1,9 +1,5 @@
 termux-setup-storage
 DIR=$(dirname "$(realpath $0)")
 
-curl -L -o hola-proxy.android-arm  https://github.com/Snawoot/hola-proxy/releases/download/v1.17.0/hola-proxy.android-arm
-chmod +x hola-proxy.android-arm
-
-cd $DIR/storage/downloads
 curl -L -o main.tar.gz https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/archive/main.tar.gz
 tar -xf main.tar.gz
