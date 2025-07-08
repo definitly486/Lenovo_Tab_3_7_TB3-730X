@@ -20,17 +20,15 @@
 /system/app/Galaxy4/
 /system/vendor/operator/app/LenovoSYNTit_V0312/
 /system/app/LenovoCheck/
-
 #/system/app/Hangouts/  - ошибка при установке
 #/system/app/GoogleTTS/ - ошибка при установке
-
-
-
 /system/vendor/app/DsUI/
 /system/vendor/app/Ds/
 #/system/priv-app/ChildModelSettings/ - ошибка при установке
-
 /system/priv-app/Phonesky/
+
+/system/priv-app/WallpaperCropper/
+
 
 /system/vendor/operator/app/Yandex/
 /system/vendor/operator/app/yandex_web/
