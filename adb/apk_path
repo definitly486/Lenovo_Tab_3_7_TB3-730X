@@ -41,6 +41,5 @@
 /system/vendor/operator/app/AnyShare/
 /system/priv-app/Velvet/
 /system/priv-app/LSF-UEService-Pad-RoW/
-/system/priv-app/GoogleServicesFramework/ошибка при установке
-
+#/system/priv-app/GoogleServicesFramework/ошибка при установке
 /system/priv-app/GoogleLoginService/
