@@ -18,6 +18,7 @@
 /system/priv-app/MusicFX/
 /system/app/PhaseBeam/
 /system/app/Galaxy4/
+
 /system/vendor/operator/app/LenovoSYNTit_V0312/
 /system/app/LenovoCheck/
 /system/app/Hangouts/
@@ -43,3 +44,5 @@
 /system/priv-app/LSF-UEService-Pad-RoW/
 #/system/priv-app/GoogleServicesFramework/ошибка при установке
 /system/priv-app/GoogleLoginService/
+/system/priv-app/GmsCore/
+/system/priv-app/SetupWizard/
