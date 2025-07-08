@@ -16,11 +16,12 @@
 /system/app/LiveWallpapers/
 /system/app/NoiseField/
 /system/priv-app/MusicFX/
-
-
 /system/app/PhaseBeam/
 /system/app/HoloSpiralWallpaper/
 /system/app/Galaxy4/
+
+/system/vendor/operator/app/LenovoSYNTit_V0312/
+/system/app/LenovoCheck/
 
 
 /system/vendor/operator/app/Yandex/
