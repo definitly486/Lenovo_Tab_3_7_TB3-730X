@@ -11,7 +11,6 @@
 /system/app/Maps/
 /system/priv-app/GoogleLoginService/
 /system/app/GoogleContactsSyncAdapter/
-/system/app/ExchangeGoogle_signed_506160_6.0.115234829.release/
 /system/app/Videos/
 /system/priv-app/GoogleFeedback/
 /system/app/Photos/
@@ -37,7 +36,6 @@
 /system/priv-app/LSF-Device-Pad-RoW/
 /system/vendor/operator/app/LenovoSYNTit_V0312/
 /system/app/LenovoCheck/
-/system/priv-app/GmsCore/
 /system/priv-app/GoogleServicesFramework/
 /system/priv-app/GoogleLoginService/
 /system/priv-app/GooglePartnerSetup/
