@@ -21,10 +21,10 @@
 /system/vendor/operator/app/LenovoSYNTit_V0312/
 /system/app/LenovoCheck/
 /system/app/Hangouts/
-/system/app/GoogleTTS/ошибка при установке
+/system/app/GoogleTTS/
 /system/vendor/app/DsUI/
 /system/vendor/app/Ds/
-/system/priv-app/ChildModelSettings/ошибка при установке
+/system/priv-app/ChildModelSettings/
 /system/priv-app/Phonesky/
 /system/priv-app/WallpaperCropper/
 /system/priv-app/ConfigUpdater/
@@ -41,9 +41,9 @@
 /system/vendor/operator/app/AnyShare/
 /system/priv-app/Velvet/
 /system/priv-app/LSF-UEService-Pad-RoW/
-/system/priv-app/GoogleServicesFramework/ошибка при установке
+/system/priv-app/GoogleServicesFramework/
 /system/priv-app/GoogleLoginService/
 /system/priv-app/GmsCore/
 /system/priv-app/SetupWizard/
-
+/system/app/PartnerBookmarksProvider/
 /system/priv-app/WantjoinChildLauncher/
