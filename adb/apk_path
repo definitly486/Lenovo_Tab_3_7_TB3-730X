@@ -32,13 +32,12 @@
 /system/priv-app/GoogleFeedback/
 /system/priv-app/LenovoOtaRow_V20160501/
 /system/priv-app/GooglePartnerSetup/
-
-
 /system/priv-app/GoogleOneTimeInitializer/
-
 /system/vendor/operator/app/Yandex/
 /system/vendor/operator/app/yandex_web/
 /system/app/CalendarGoogle/
 /system/priv-app/GoogleBackupTransport/
 /system/vendor/operator/app/LenovoMMS_Dbuild/
 /system/vendor/operator/app/AnyShare/
+/system/priv-app/Velvet/
+/system/priv-app/LSF-UEService-Pad-RoW/

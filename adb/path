@@ -17,7 +17,6 @@
 /system/priv-app/Phonesky/
 /system/app/Chrome/
 /system/priv-app/WallpaperCropper/
-/system/app/HoloSpiralWallpaper/
 /system/app/LiveWallpapersPicker/
 /system/app/LiveWallpapers/
 /system/app/NoiseField/
@@ -33,11 +32,9 @@
 /system/priv-app/LenovoOtaRow_V20160501/
 /system/vendor/operator/app/AnyShare/
 /system/priv-app/LSF-UEService-Pad-RoW/
-/system/priv-app/LSF-Device-Pad-RoW/
 /system/vendor/operator/app/LenovoSYNTit_V0312/
 /system/app/LenovoCheck/
 /system/priv-app/GoogleServicesFramework/
-/system/priv-app/GoogleLoginService/
 /system/priv-app/GooglePartnerSetup/
 /system/app/CalendarGoogle/
 /system/priv-app/GoogleBackupTransport/
