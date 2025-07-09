@@ -5,9 +5,8 @@
 curl -L -o Python-3.9.23.tgz  https://www.python.org/ftp/python/3.9.23/Python-3.9.23.tgz
 tar xzf Python-3.9.23.tgz
 cd Python-3.9.23
-
- ./configure --prefix=/opt/python/3.9.23/ --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --with-openssl=/usr/local/ssl
  export CPPFLAGS+=" -D__ANDROID_API__=21"
+ ./configure --prefix=/opt/python/3.9.23/ --enable-optimizations --with-lto --with-computed-gotos --with-system-ffi --with-openssl=/usr/local/ssl
  make -j "$(grep -c ^processor /proc/cpuinfo)"
  make altinstall
  rm /tmp/Python-3.9.23.tgz
