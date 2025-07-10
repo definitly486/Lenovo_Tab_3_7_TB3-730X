@@ -1,4 +1,4 @@
-pkg install git
+pkg install git  build-essential
 curl -fsSL https://pyenv.run | bash
 
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
