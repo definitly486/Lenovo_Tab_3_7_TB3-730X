@@ -1,0 +1,1 @@
+yt-dlp -f url144 -o -  $1 | am start -n is.xyz.mpv/is.xyz.mpv.MPVActivity -
