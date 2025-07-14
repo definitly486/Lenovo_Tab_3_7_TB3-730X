@@ -5,5 +5,4 @@ curl -L -o main.tar.gz https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/a
 tar -xf main.tar.gz
 adb shell pm grant com.conena.navigation.gesture.control android.permission.WRITE_SECURE_SETTINGS 
 https://raw.githubusercontent.com/Syavar/V2ray-Configs/refs/heads/main/OK_speedtest.tinkoff.ru_base64.txt
-https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub1.txt
-https://raw.githubusercontent.com/barry-far/V2ray-config/main/Sub2.txt
+https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt
