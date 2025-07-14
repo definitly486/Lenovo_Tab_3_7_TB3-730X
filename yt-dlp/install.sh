@@ -5,6 +5,8 @@ cd Python-3.9.23
 make install 
 cp python /data/data/com.termux/files/usr/bin
 cd -
-curl -L -o yt-dlp https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/yt-dlp.2025.06.30/yt-dlp
-chmod +x yt-dlp 
-cp yt-dlp  /data/data/com.termux/files/usr/bin
+#curl -L -o yt-dlp https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/yt-dlp.2025.06.30/yt-dlp
+#chmod +x yt-dlp 
+#cp yt-dlp  /data/data/com.termux/files/usr/bin
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /data/data/com.termux/files/usr/bin/yt-dlp
+chmod +x  /data/data/com.termux/files/usr/bin/yt-dlp
