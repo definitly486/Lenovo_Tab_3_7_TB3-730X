@@ -1,0 +1,1 @@
+am start -n is.xyz.mpv/is.xyz.mpv.MPVActivity -e filepath `streamlink --stream-url $1 240p`
