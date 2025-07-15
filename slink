@@ -3,7 +3,8 @@ set -e
 
 INTERFACE=${INTERFACE:-127.0.0.1}
 PORT=${PORT:-4567}
-PLAYER=${PLAYER:-org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity}
+#PLAYER=${PLAYER:-org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity}
+PLAYER=${PLAYER:-is.xyz.mpv/is.xyz.mpv.MPVActivity}
 
 streamlink "$@" \
   --player-external-http \
