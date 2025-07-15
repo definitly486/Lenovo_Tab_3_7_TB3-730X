@@ -6,3 +6,4 @@ tar -xf main.tar.gz
 adb shell pm grant com.conena.navigation.gesture.control android.permission.WRITE_SECURE_SETTINGS 
 https://raw.githubusercontent.com/Syavar/V2ray-Configs/refs/heads/main/OK_speedtest.tinkoff.ru_base64.txt
 https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt
+https://github.com/xinitronix/mate/blob/5ba2b69739fea94e73c98f11ac708ae507fd7b3c/userfolder/note
