@@ -51,3 +51,6 @@
 /system/app/AutoDialer/
 /system/app/BookmarkProvider
 /system/app/FaceLock/
+/system/app/NlpService/
+/system/app/MTKLogger/
+/system/app/PrintSpooler/

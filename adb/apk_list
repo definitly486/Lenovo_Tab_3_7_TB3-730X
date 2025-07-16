@@ -50,3 +50,6 @@ com.android.partnerbrowsercustomizations.example
 com.example
 com.android.bookmarkprovider
 com.android.facelock
+com.mediatek.nlpservice
+com.mediatek.mtklogger
+com.android.printspooler
