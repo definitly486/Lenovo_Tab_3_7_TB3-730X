@@ -63,9 +63,10 @@ com.android.sharedstoragebackup
 com.android.backupconfirm
 com.mediatek.providers.drm
 com.mediatek.calendarimporter
-com.android.vpndialogs
 com.android.stk
 #com.android.shell
 com.android.dreams.phototable
 com.android.calllogbackup
 com.wingtech.stability
+com.android.wallpapercropper
+com.wingtech.smartalertlight

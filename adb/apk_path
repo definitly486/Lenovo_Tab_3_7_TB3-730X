@@ -64,9 +64,9 @@
 /system/priv-app/BackupRestoreConfirmation
 /system/app/DrmProvider
 /system/app/CalendarImporter
-/system/priv-app/VpnDialogs
 #/system/priv-app/Shell
 /system/priv-app/Stk1
 /system/app/PhotoTable
 /system/priv-app/CallLogBackup/
 /system/app/Stability/
+/system/app/SmartAlertLight
