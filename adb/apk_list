@@ -53,3 +53,6 @@ com.android.facelock
 com.mediatek.nlpservice
 com.mediatek.mtklogger
 com.android.printspooler
+com.android.providers.calendar
+com.mediatek.atci.service
+com.mediatek.miravision.ui

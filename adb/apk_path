@@ -54,3 +54,6 @@
 /system/app/NlpService/
 /system/app/MTKLogger/
 /system/app/PrintSpooler/
+/system/priv-app/CalendarProvider
+/system/app/AtciService
+/system/app/MiraVision/
