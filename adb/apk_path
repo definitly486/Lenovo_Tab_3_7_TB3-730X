@@ -65,6 +65,6 @@
 /system/app/DrmProvider
 /system/app/CalendarImporter
 /system/priv-app/VpnDialogs
-/system/priv-app/Shell
+#/system/priv-app/Shell
 /system/priv-app/Stk1
 /system/app/PhotoTable
