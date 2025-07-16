@@ -63,3 +63,6 @@ com.android.sharedstoragebackup
 com.android.backupconfirm
 com.mediatek.providers.drm
 com.mediatek.calendarimporter
+com.android.vpndialogs
+com.android.stk
+com.android.shell

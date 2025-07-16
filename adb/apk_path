@@ -64,3 +64,6 @@
 /system/priv-app/BackupRestoreConfirmation
 /system/app/DrmProvider
 /system/app/CalendarImporter
+/system/priv-app/VpnDialogs
+/system/priv-app/Shell
+/system/priv-app/Stk1
