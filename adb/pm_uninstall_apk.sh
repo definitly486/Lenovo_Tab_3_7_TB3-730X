@@ -7,3 +7,5 @@ dir=$(dirname "$(realpath $0)")
 
 done
 
+     su - root -c  "reboot"
+

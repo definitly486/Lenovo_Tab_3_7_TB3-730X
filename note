@@ -4,6 +4,6 @@ DIR=$(dirname "$(realpath $0)")
 curl -L -o main.tar.gz https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/archive/main.tar.gz
 tar -xf main.tar.gz
 adb shell pm grant com.conena.navigation.gesture.control android.permission.WRITE_SECURE_SETTINGS 
-https://raw.githubusercontent.com/Syavar/V2ray-Configs/refs/heads/main/OK_speedtest.tinkoff.ru_base64.txt
-https://raw.githubusercontent.com/Epodonios/v2ray-configs/refs/heads/main/Sub1.txt
+https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Sub29.txt
+
 https://github.com/xinitronix/mate/blob/5ba2b69739fea94e73c98f11ac708ae507fd7b3c/userfolder/note
