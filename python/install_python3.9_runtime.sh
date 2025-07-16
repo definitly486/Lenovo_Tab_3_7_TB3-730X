@@ -14,4 +14,5 @@ cp  python3.9_runtime/python3.9_bak    /data/data/com.termux/files/usr/bin/pytho
 cp  python3.9_runtime/python3.9-config    /data/data/com.termux/files/usr/bin/
 cp  python3.9_runtime/python3-config    /data/data/com.termux/files/usr/bin/
 chmod +x  /data/data/com.termux/files/usr/bin/python
+chmod +x  /data/data/com.termux/files/usr/bin/python3
 chmod +x  /data/data/com.termux/files/usr/bin/pip
