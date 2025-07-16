@@ -1,4 +1,8 @@
-curl -L -o  python3.9_runtime.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/python3.9_runtime/python3.9_runtime.tar.xz
+
+if ! [  -f "python3.9_runtime.tar.xz" ]; then
+     curl -L -o  python3.9_runtime.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/python3.9_runtime/python3.9_runtime.tar.xz
+fi
+
 tar xzf python3.9_runtime.tar.xz
 cp -R python3.9_runtime/python3.9  /data/data/com.termux/files/usr/lib/
 cp  python3.9_runtime/pip    /data/data/com.termux/files/usr/bin
