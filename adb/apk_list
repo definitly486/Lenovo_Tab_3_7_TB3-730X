@@ -48,3 +48,5 @@ com.wantjoin.childmodel.launcher3
 com.android.providers.partnerbookmarks
 com.android.partnerbrowsercustomizations.example
 com.example
+com.android.bookmarkprovider
+com.android.facelock
