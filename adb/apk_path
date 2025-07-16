@@ -60,3 +60,7 @@
 /system/app/LunarInfoProvider/
 /system/app/VersionSwitch
 /system/app/VoiceCommand
+/system/priv-app/SharedStorageBackup
+/system/priv-app/BackupRestoreConfirmation
+/system/app/DrmProvider
+/system/app/CalendarImporter

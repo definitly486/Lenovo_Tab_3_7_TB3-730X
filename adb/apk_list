@@ -59,3 +59,7 @@ com.mediatek.miravision.ui
 com.mediatek.providers.lunarinfo
 com.wingtech.versionswitch
 com.mediatek.voicecommand
+com.android.sharedstoragebackup
+com.android.backupconfirm
+com.mediatek.providers.drm
+com.mediatek.calendarimporter
