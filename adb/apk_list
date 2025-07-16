@@ -56,3 +56,5 @@ com.android.printspooler
 com.android.providers.calendar
 com.mediatek.atci.service
 com.mediatek.miravision.ui
+com.mediatek.providers.lunarinfo
+com.wingtech.versionswitch

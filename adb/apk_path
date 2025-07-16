@@ -57,3 +57,5 @@
 /system/priv-app/CalendarProvider
 /system/app/AtciService
 /system/app/MiraVision/
+/system/app/LunarInfoProvider/
+/system/app/VersionSwitch
