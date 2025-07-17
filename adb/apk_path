@@ -82,3 +82,5 @@
 /system/app/RunInTest
 /system/app/BluetoothMidiService/
 /system/priv-app/StatementService
+/system/app/EngineerMode
+/system/app/PersistZoneInfo
