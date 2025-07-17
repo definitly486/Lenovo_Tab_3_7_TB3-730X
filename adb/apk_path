@@ -78,3 +78,7 @@
 /system/app/Omacp/
 /system/priv-app/InputDevices
 /system/app/FactoryMode
+/system/app/YGPS/
+/system/app/RunInTest
+/system/app/BluetoothMidiService/
+/system/priv-app/StatementService

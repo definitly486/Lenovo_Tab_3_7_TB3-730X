@@ -78,3 +78,7 @@ com.wt.secret_code_manager
 com.mediatek.omacp
 com.android.inputdevices
 com.mediatek.factorymode
+com.mediatek.ygps
+com.wingtech.runintest
+com.android.bluetoothmidiservice
+com.android.statementservice
