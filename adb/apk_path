@@ -75,3 +75,6 @@
 /system/app/CaptivePortalLogin
 /system/app/LocationEM2
 /system/priv-app/wt_secret_code_manager
+/system/app/Omacp/
+/system/priv-app/InputDevices
+/system/app/FactoryMode

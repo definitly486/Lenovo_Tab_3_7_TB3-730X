@@ -75,3 +75,6 @@ com.mediatek.ppl
 com.android.captiveportallogin
 com.mediatek.lbs.em2.ui
 com.wt.secret_code_manager
+com.mediatek.omacp
+com.android.inputdevices
+com.mediatek.factorymode
