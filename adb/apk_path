@@ -84,3 +84,7 @@
 /system/priv-app/StatementService
 /system/app/EngineerMode
 /system/app/PersistZoneInfo
+/system/app/CameraStability
+/system/app/SinoAngelKids
+/system/app/Duo/
+/system/priv-app/CellBroadcastReceiver
