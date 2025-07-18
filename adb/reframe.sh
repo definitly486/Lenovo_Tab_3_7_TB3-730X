@@ -1,5 +1,7 @@
+if ! [  -f "framework-res.apk_mod" ]; then
+     curl -L -o framework-res.apk_mod  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/framework-res.apk_mod
+fi
 
-curl -L -o framework-res.apk_mod  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/framework-res.apk_mod
 su - root -c 'mount -o rw,remount /system'
 su - root -c 'mv framework-res.apk_mod /system/framework/'
 cd /system/framework
