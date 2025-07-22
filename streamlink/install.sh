@@ -16,5 +16,5 @@ tar xf wheel.tar.xz -C    /data/data/com.termux/files/usr/lib/python3.9/site-pac
 tar xf pycountry.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
 tar xf websocket.tar.xz -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages  
 tar xf charset_normalizer.tar.xz -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
-cp    streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
+cp    /data/data/com.termux/files/usr/lib/python3.9/site-packages/streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
