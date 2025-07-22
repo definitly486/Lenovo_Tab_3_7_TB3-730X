@@ -11,5 +11,6 @@ if ! [  -f "com.google.android.apps.maps.tar.xz" ]; then
 fi
 
 su - root -c "rm -R /data/data/com.google.android.apps.maps"
-su - root -c "tar xzf com.google.android.apps.maps.tar.xz -C /data/data/"
-su - root -c "chmod  -R 0775  /data/data/com.google.android.apps.maps"
+tar xf com.google.android.apps.maps.tar.xz
+su - root -c "mv com.google.android.apps.maps /data/data"
+su - root -c "chmod  -R 0644  /data/data/com.google.android.apps.maps"
