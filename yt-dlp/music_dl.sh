@@ -1,8 +1,9 @@
 #!/bin/bash
+DL_DIR=/storage/emulated/0/Muisc
 if [ -z "$1" ]
 then
      echo "не введена ссылка"
      exit
 fi
-cd /storage/emulated/0/Music
-yt-dlp -f 140 $1
+cd $DL_DIR
+yt-dlp -f 140 "$1"
