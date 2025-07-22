@@ -10,6 +10,8 @@ curl -L -o charset_normalizer.tar.xz             https://github.com/definitly486
 curl -L -o isodate.tar.xz                        https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/isodate.tar.xz
 curl -L -o  requests.tar.xz                      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/requests.tar.xz
 curl -L -o  urllib3.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/urllib3.tar.xz
+curl -L -o  outcome.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/outcome.tar.xz
+curl -L -o  sniffio.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sniffio.tar.xz
 curl -L -o   /data/data/com.termux/files/usr/lib/python3.9/site-packages/typing_extensions.py   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/typing_extensions.py
 tar xf streamlink.tar.xz             
 tar xf streamlink_cli.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
@@ -23,6 +25,8 @@ tar xf charset_normalizer.tar.xz -C    /data/data/com.termux/files/usr/lib/pytho
 tar xf requests.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf isodate.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf urllib3.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
+tar xf outcome.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages
+tar xf sniffio.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 cp    streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 cp -R   streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
