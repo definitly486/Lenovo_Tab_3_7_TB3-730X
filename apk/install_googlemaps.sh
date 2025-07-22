@@ -10,5 +10,6 @@ if ! [  -f "com.google.android.apps.maps.tar.xz" ]; then
     curl -L -o  com.google.android.apps.maps.tar.xz     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/googlemaps/com.google.android.apps.maps.tar.xz
 fi
 
-rm -R /data/data/com.google.android.apps.maps
-tar xzf com.google.android.apps.maps.tar.xz -C /data/data/
+su - root -c "rm -R /data/data/com.google.android.apps.maps"
+su - root -c "tar xzf com.google.android.apps.maps.tar.xz -C /data/data/"
+su - root -c "chmod  -R 0775  /data/data/com.google.android.apps.maps"
