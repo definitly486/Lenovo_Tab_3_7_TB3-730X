@@ -13,6 +13,7 @@ curl -L -o  urllib3.tar.xz                       https://github.com/definitly486
 curl -L -o  outcome.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/outcome.tar.xz
 curl -L -o  sniffio.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sniffio.tar.xz
 curl -L -o  sortedcontainers.tar.xz              https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sortedcontainers.tar.xz
+curl -L -o  Crypto.tar.xz                        https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/Crypto.tar.xz
 curl -L -o   /data/data/com.termux/files/usr/lib/python3.9/site-packages/typing_extensions.py   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/typing_extensions.py
 tar xf streamlink.tar.xz             
 tar xf streamlink_cli.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
@@ -29,6 +30,7 @@ tar xf urllib3.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-pac
 tar xf outcome.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf sniffio.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf sortedcontainers.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
+tar xf Crypto.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 cp    streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 cp -R   streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
