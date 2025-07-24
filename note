@@ -1,8 +1,9 @@
 termux-setup-storage
 DIR=$(dirname "$(realpath $0)")
+cd $HOME
 curl -L -o main.tar.gz https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/archive/main.tar.gz
 tar -xf main.tar.gz
-adb shell pm grant com.conena.navigation.gesture.control android.permission.WRITE_SECURE_SETTINGS 
-https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Sub29.txt
--s1 -q1 -Y -Ar -s5 -o1+s -At -f-1 -r1+s -As -s1 -o1 +s -s-1 -An -b+500
-https://github.com/xinitronix/mate/blob/5ba2b69739fea94e73c98f11ac708ae507fd7b3c/userfolder/note
+#adb shell pm grant com.conena.navigation.gesture.control android.permission.WRITE_SECURE_SETTINGS 
+#https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/Sub29.txt
+#-s1 -q1 -Y -Ar -s5 -o1+s -At -f-1 -r1+s -As -s1 -o1 +s -s-1 -An -b+500
+#https://github.com/xinitronix/mate/blob/5ba2b69739fea94e73c98f11ac708ae507fd7b3c/userfolder/note
