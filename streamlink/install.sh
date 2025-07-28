@@ -15,7 +15,8 @@ curl -L -o  sniffio.tar.xz                       https://github.com/definitly486
 curl -L -o  sortedcontainers.tar.xz              https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sortedcontainers.tar.xz
 curl -L -o  Crypto.tar.xz                        https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/Crypto.tar.xz
 curl -L -o  idna.tar.xz                          https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/idna.tar.xz 
-curl -L -o  certifi.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/certifi.tar.xz 
+curl -L -o  certifi.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/certifi.tar.xz
+curl -L -o  attrs.tar.xz                         https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/attrs.tar.xz 
 
 curl -L -o   /data/data/com.termux/files/usr/lib/python3.9/site-packages/typing_extensions.py   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/typing_extensions.py
 curl -L -o   /data/data/com.termux/files/usr/lib/libxslt.so     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libxslt.so
@@ -40,6 +41,7 @@ tar xf sortedcontainers.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9
 tar xf Crypto.tar.xz -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf idna.tar.xz  -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 tar xf certifi.tar.xz  -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
+tar xf attrs.tar.xz  -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
 cp    streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 cp -R   streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
