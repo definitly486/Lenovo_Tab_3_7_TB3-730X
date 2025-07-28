@@ -10,4 +10,5 @@ curl -L -o   io.github.dovecoteescapee.byedpi.tar.xz     https://github.com/defi
 tar xf io.github.dovecoteescapee.byedpi.tar.xz
 su - root -c "rm -r /data/data/io.github.dovecoteescapee.byedpi/"
 su - root -c "cp -r  $DIR/io.github.dovecoteescapee.byedpi   /data/data/"
-su - root -c "chmod -R  775 /data/data/io.github.dovecoteescapee.byedpi/"
+su - root -c "chmod -R  755 /data/data/io.github.dovecoteescapee.byedpi/"
+su - root -c "chown  -R  u0_a105:u0_a105 /data/data/io.github.dovecoteescapee.byedpi/"
