@@ -48,3 +48,5 @@ tar xf attrs.tar.xz  -C  /data/data/com.termux/files/usr/lib/python3.9/site-pack
 cp    streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 cp -R   streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
+rm -r /data/data/com.termux/files/usr/lib/python3.9/site-packages/attrs
+tar xf attrs.tar.xz  -C  /data/data/com.termux/files/usr/lib/python3.9/site-packages
