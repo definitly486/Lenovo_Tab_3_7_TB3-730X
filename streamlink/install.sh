@@ -21,7 +21,7 @@ curl -L -o   /data/data/com.termux/files/usr/lib/python3.9/site-packages/typing_
 curl -L -o   /data/data/com.termux/files/usr/lib/libxslt.so     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libxslt.so
 curl -L -o   /data/data/com.termux/files/usr/lib/libexslt.so    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libexslt.so
 curl -L -o   /data/data/com.termux/files/usr/lib/libxml2.so     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libxml2.so
-curl -L-o    /data/data/com.termux/files/usr/lib/libffi.so      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libffi.so
+curl -L -o   /data/data/com.termux/files/usr/lib/libffi.so      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libffi.so
 tar xf streamlink.tar.xz             
 tar xf streamlink_cli.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
 tar xf exceptiongroup.tar.xz -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages  
