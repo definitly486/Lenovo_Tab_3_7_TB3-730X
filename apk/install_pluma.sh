@@ -8,5 +8,4 @@ su - root -c  "pm install /storage/emulated/0/Download/$FILE"
 
 curl -L -o  com.qflair.browserq.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz
 tar xf   com.qflair.browserq.tar.xz
-su - root -c "cp -r  $DIR/com.qflair.browserq   /data/data/"
-su - root -c "chmod -R  755 /data/data/com.qflair.browserq"
+
