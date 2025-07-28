@@ -1,5 +1,5 @@
 #!/bin/bash
-DL_DIR=/storage/emulated/0/Muisc
+DL_DIR=/storage/emulated/0/Music
 if [ -z "$1" ]
 then
      echo "не введена ссылка"
