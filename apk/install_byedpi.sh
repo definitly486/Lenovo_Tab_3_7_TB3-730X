@@ -6,6 +6,7 @@ if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
 fi
 su - root -c  "pm install /storage/emulated/0/Download/$FILE"
 
-curl -L -o   io.github.dovecoteescapee.byedpi_preferences.xml   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/io.github.dovecoteescapee.byedpi_preferences.xml
-su - root -c "mkdir -p /data/data/io.github.dovecoteescapee.byedpi/shared_prefs"
-su - root -c "cp $DIR/io.github.dovecoteescapee.byedpi_preferences.xml   /data/data/io.github.dovecoteescapee.byedpi/shared_prefs" 
+curl -L -o   io.github.dovecoteescapee.byedpi.tar.xz     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/io.github.dovecoteescapee.byedpi.tar.xz
+tar xf io.github.dovecoteescapee.byedpi.tar.xz
+su - root -c "rm -r /data/data/io.github.dovecoteescapee.byedpi/"
+su - root -c "cp -r  $DIR/io.github.dovecoteescapee.byedpi   /data/data/" 
