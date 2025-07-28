@@ -7,4 +7,4 @@ fi
 su - root -c  "pm install /storage/emulated/0/Download/$FILE"
 
 curl -L -o   io.github.dovecoteescapee.byedpi_preferences.xml   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/io.github.dovecoteescapee.byedpi_preferences.xml
-su su - root -c "cp $DIR/io.github.dovecoteescapee.byedpi_preferences.xml   /data/data/io.github.dovecoteescapee.byedpi/shared_prefs" 
+su - root -c "cp $DIR/io.github.dovecoteescapee.byedpi_preferences.xml   /data/data/io.github.dovecoteescapee.byedpi/shared_prefs" 
