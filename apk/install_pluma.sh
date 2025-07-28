@@ -11,4 +11,4 @@ tar xf   com.qflair.browserq.tar.xz
 
 su - root -c "mkdir -p /data/data/com.qflair.browserq"
 su - root -c "cp -r  $DIR/com.qflair.browserq/databases   /data/data/com.qflair.browserq"
-su - root -c "chmod -R  755 "/data/data/com.qflair.browserq/databases"
+su - root -c "chmod -R  755 /data/data/com.qflair.browserq/databases"
