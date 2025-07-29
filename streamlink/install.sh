@@ -16,4 +16,7 @@ cp   streamlink/libxslt.so  /data/data/com.termux/files/usr/lib
 cp -R   streamlink/streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
 
-
+curl -L -o  attrs.tar.xz   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/attrs.tar.xz
+curl -L -o  attrs-25.3.0.dist-info.tar.xz    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/attrs-25.3.0.dist-info.tar.xz 
+tar xf attrs.tar.xz -C /data/data/com.termux/files/usr/lib/python3.9/site-packages
+tar xf attrs-25.3.0.dist-info.tar.xz -C /data/data/com.termux/files/usr/lib/python3.9/site-packages
