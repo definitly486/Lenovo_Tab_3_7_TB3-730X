@@ -6,5 +6,6 @@ git config --global user.name "Your Name"
 git add --all
 git add .
 git commit -n
-git push https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X.git
+#git push https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X.git
+git push ssh://git@github.com/definitly486/Lenovo_Tab_3_7_TB3-730X.git 
 
