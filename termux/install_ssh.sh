@@ -11,4 +11,4 @@ fi
 openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in  ssh.tar.xz.enc  -out ssh.tar.xz       -pass pass:$1   
 tar xf ssh.tar.xz
 mkdir -p $HOME/.ssh
-cp ssh/* .ssh 
+cp ssh/* $HOME/.ssh 
