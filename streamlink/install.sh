@@ -12,11 +12,14 @@ done
 
 for lib in $(cat list_libs  ); do
   
-if ! [  -f  "/data/data/com.termux/files/usr/lib/python3.9/site-packages/$lib" ]; then
-    curl -L -o "/data/data/com.termux/files/usr/lib/python3.9/site-packages/$lib"    $URL/$lib
+if ! [  -f  "/data/data/com.termux/files/usr/lib/$lib" ]; then
+    curl -L -o "/data/data/com.termux/files/usr/lib/$lib"    $URL/$lib
 fi
 
 done
+
+curl -L -o "/data/data/com.termux/files/usr/lib/python3.9/site-packages         https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/attr.py 
+curl -L -o "/data/data/com.termux/files/usr/lib/python3.9/site-packages         https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/typing_extensions.py
 
 tar xf streamlink.tar.xz             
 tar xf streamlink_cli.tar.xz  -C    /data/data/com.termux/files/usr/lib/python3.9/site-packages 
