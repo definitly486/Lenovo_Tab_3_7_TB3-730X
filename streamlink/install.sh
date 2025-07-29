@@ -1,24 +1,14 @@
+DIR=$(dirname "$(realpath $0)")
+URL=https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink
+  
+for i in $(cat $DIR/list  ); do
+  FILE=$I 
+if ! [  -f "$DIR/$FILE" ]; then
+    curl -L -o $DIR/$FILE     $URL/$FILE
+fi
 
+done
 
-curl -L -o streamlink.tar.xz                     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/streamlink.tar.xz
-curl -L -o streamlink_cli.tar.xz                 https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/streamlink_cli.tar.xz
-curl -L -o exceptiongroup.tar.xz                 https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/exceptiongroup.tar.xz
-curl -L -o lxml.tar.xz                           https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/lxml.tar.xz
-curl -L -o trio.tar.xz                           https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/trio.tar.xz
-curl -L -o wheel.tar.xz                          https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/wheel.tar.xz
-curl -L -o websocket.tar.xz                      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/websocket.tar.xz 
-curl -L -o pycountry.tar.xz                      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/pycountry.tar.xz
-curl -L -o charset_normalizer.tar.xz             https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/charset_normalizer.tar.xz
-curl -L -o isodate.tar.xz                        https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/isodate.tar.xz
-curl -L -o  requests.tar.xz                      https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/requests.tar.xz
-curl -L -o  urllib3.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/urllib3.tar.xz
-curl -L -o  outcome.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/outcome.tar.xz
-curl -L -o  sniffio.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sniffio.tar.xz
-curl -L -o  sortedcontainers.tar.xz              https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/sortedcontainers.tar.xz
-curl -L -o  Crypto.tar.xz                        https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/Crypto.tar.xz
-curl -L -o  idna.tar.xz                          https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/idna.tar.xz 
-curl -L -o  certifi.tar.xz                       https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/certifi.tar.xz
-curl -L -o  attrs.tar.xz                         https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/attrs.tar.xz 
 
 curl -L -o   /data/data/com.termux/files/usr/lib/python3.9/site-packages/typing_extensions.py   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/typing_extensions.py
 curl -L -o   /data/data/com.termux/files/usr/lib/libxslt.so     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/streamlink/libxslt.so
