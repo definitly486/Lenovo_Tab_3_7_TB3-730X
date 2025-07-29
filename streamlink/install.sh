@@ -3,7 +3,7 @@ URL=https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/st
   
 for i in $(cat list  ); do
   FILE=$I 
-if ! [  -f  $FILE" ]; then
+if ! [  -f  "$FILE" ]; then
     curl -L -o $FILE     $URL/$FILE
 fi
 
