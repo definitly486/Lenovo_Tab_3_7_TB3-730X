@@ -12,8 +12,8 @@ done
 
 for lib in $(cat list_libs  ); do
   
-if ! [  -f  "/data/data/com.termux/files/usr/lib/$lib" ]; then
-    curl -L -o "/data/data/com.termux/files/usr/lib/$lib"    $URL/$lib
+if ! [  -f  "/data/data/com.termux/files/usr/lib/python3.9/site-packages/$lib" ]; then
+    curl -L -o "/data/data/com.termux/files/usr/lib/python3.9/site-packages/$lib"    $URL/$lib
 fi
 
 done
