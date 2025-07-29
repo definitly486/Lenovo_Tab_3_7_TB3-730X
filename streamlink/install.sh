@@ -10,8 +10,8 @@ tar xf streamlink_runtime.tar.xz
 cp -R streamlink/*       /data/data/com.termux/files/usr/lib/python3.9/site-packages
 cp    streamlink/streamlink/streamlink_bak /data/data/com.termux/files/usr/bin/streamlink
 cp   streamlink/libexslt.so /data/data/com.termux/files/usr/lib
-cp   streamlink/libexslt.so /data/data/com.termux/files/usr/lib
-cp   streamlink/libexslt.so /data/data/com.termux/files/usr/lib 
+cp   streamlink/libffi.so /data/data/com.termux/files/usr/lib
+cp   streamlink/libxml2.so /data/data/com.termux/files/usr/lib 
 cp   streamlink/libxslt.so  /data/data/com.termux/files/usr/lib
 cp -R   streamlink/streamlink/streamlink     /data/data/com.termux/files/usr/lib/python3.9/site-packages
 chmod +x /data/data/com.termux/files/usr/bin/streamlink
