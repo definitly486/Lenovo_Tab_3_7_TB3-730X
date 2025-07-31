@@ -18,5 +18,5 @@ fi
 
 tar xf org.mozilla.firefox.tar.xz
 su - root -c "rm -r /data/data/org.mozilla.firefox/files/mozilla"
-su - root -c "cp -r  $DIR/org.mozilla.firefox/files/mozilla /data/data/org.mozilla.firefox/files"
-su - root -c "chmod -R  755  /data/data/org.mozilla.firefox/files/mozilla"
+su - root -c "cp -r  org.mozilla.firefox/files/mozilla /data/data/org.mozilla.firefox/files"
+su - root -c "chmod -R  755  /data/data/org.mozilla.firefox/files/"
