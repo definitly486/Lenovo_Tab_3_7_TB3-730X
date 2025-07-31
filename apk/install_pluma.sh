@@ -4,11 +4,16 @@ FILE=Pluma_.private_fast.browser_1.80_APKPure.apk
 if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
     curl -L -o /data/data/com.termux/files/home/storage/downloads/$FILE     $URL/$FILE
 fi
-su - root -c  "pm install /storage/emulated/0/Download/$FILE"
+
+apk=$(pm list packages | grep com.qflair.browserq )
+
+if [ -z "$apk" ]
+then
+     su - root -c  "pm install /storage/emulated/0/Download/$FILE"
+fi
 
 curl -L -o  com.qflair.browserq.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz
 tar xf   com.qflair.browserq.tar.xz
-
 su - root -c "mkdir -p /data/data/com.qflair.browserq"
 su - root -c "cp -r  $DIR/com.qflair.browserq/databases   /data/data/com.qflair.browserq"
 su - root -c "chmod -R  700  /data/data/com.qflair.browserq/databases"
