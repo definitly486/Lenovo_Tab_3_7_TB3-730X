@@ -4,7 +4,13 @@ FILE=v2rayNG.apk
 if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
     curl -L -o /data/data/com.termux/files/home/storage/downloads/$FILE     $URL/$FILE
 fi
-su - root -c  "pm install /storage/emulated/0/Download/$FILE"
+
+apk=$(pm list packages | grep com.v2ray.ang)
+
+if [ -z "$apk" ]
+then
+     su - root -c  "pm install /storage/emulated/0/Download/$FILE"
+fi
 
 curl -L -o   com.v2ray.ang.tar.xz     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.v2ray.ang.tar.xz
 tar xf com.v2ray.ang.tar.xz
