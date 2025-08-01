@@ -1,5 +1,3 @@
-#!/bin/sh 
-
 #!/bin/sh
 dir=$(dirname "$(realpath $0)")
 
