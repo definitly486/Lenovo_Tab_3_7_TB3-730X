@@ -13,6 +13,6 @@ openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in  td.binlog.tar.xz.enc  
 tar xf td.binlog.tar.xz 
 su - root -c "rm  /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
 su - root -c "cp  td.binlog /data/data/org.thunderdog.challegram/files/tdlib"
-su - root -c "chown 600  /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
+su - root -c "chown u0_a104:u0_a104  /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
 su - root -c "chmod 0600 /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
 
