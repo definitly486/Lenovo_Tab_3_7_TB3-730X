@@ -11,8 +11,8 @@ fi
 
 openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in  td.binlog.tar.xz.enc  -out  td.binlog.tar.xz     -pass pass:$1   
 tar xf td.binlog.tar.xz 
+ID=$(ls  -l /data/data/ | grep chall | head -n 1 | sed 's/[^ ]* //' |  cut -d' ' -f1 )
 su - root -c "rm  /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
-su - root -c "cp  td.binlog /data/data/org.thunderdog.challegram/files/tdlib"
-su - root -c "chown u0_a104:u0_a104  /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
-su - root -c "chmod 0600 /data/data/org.thunderdog.challegram/files/tdlib/td.binlog"
+su - $ID  -c "cp  td.binlog /data/data/org.thunderdog.challegram/files/tdlib"
+
 
