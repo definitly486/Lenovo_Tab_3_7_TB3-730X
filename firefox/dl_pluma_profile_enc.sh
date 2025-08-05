@@ -5,6 +5,32 @@ then
      exit
 fi
 DIR=$(dirname "$(realpath $0)")
+
+
+dependency_packages=(
+  "openssl-tool"
+  
+)
+
+
+
+# Installing the required packages
+for package in "${dependency_packages[@]}"
+do
+    if [[ ! -f "$target_dir/$package" ]]; then
+        echo "Package '$package' was not found. Installation..."
+        pkg install -y "$package" &> /dev/null 
+            if [[ $? -eq 0 ]]; then
+                echo "Installation of '$package' completed successfully."
+            else
+                echo "Error installing '$package'."
+            fi
+    else
+        echo "Package '$package' is already installed."
+    fi
+done
+
+
 if ! [  -f "com.qflair.browserq.tar.xz.enc" ]; then
      curl -L -o    com.qflair.browserq.tar.xz.enc    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
 fi
