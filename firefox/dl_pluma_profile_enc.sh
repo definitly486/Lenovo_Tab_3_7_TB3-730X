@@ -5,7 +5,7 @@ then
      exit
 fi
 DIR=$(dirname "$(realpath $0)")
-target_dir="${PATH}"
+target_dir=$(pkg list-installed | grep openssl-tool)
 
 dependency_packages=(
   "openssl-tool"
@@ -17,7 +17,7 @@ dependency_packages=(
 # Installing the required packages
 for package in "${dependency_packages[@]}"
 do
-    if [[ ! -f "$target_dir/$package" ]]; then
+    if [[ ! -f "$target_dir" ]]; then
         echo "Package '$package' was not found. Installation..."
         pkg install -y "$package" &> /dev/null 
             if [[ $? -eq 0 ]]; then
