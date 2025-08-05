@@ -6,7 +6,7 @@ then
 fi
 DIR=$(dirname "$(realpath $0)")
 if ! [  -f "com.qflair.browserq.tar.xz.enc" ]; then
-     curl -L -o    com.qflair.browserq.tar.xz    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
+     curl -L -o    com.qflair.browserq.tar.xz.enc    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
 fi
 openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in   com.qflair.browserq.tar.xz.enc -out  com.qflair.browserq.tar.xz     -pass pass:$1   
 tar xf com.qflair.browserq.tar.xz
