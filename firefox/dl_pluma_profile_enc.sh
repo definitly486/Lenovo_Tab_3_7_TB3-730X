@@ -5,7 +5,7 @@ then
      exit
 fi
 DIR=$(dirname "$(realpath $0)")
-
+target_dir="${PATH}"
 
 dependency_packages=(
   "openssl-tool"
