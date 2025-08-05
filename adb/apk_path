@@ -90,5 +90,5 @@
 /system/priv-app/CellBroadcastReceiver
 /system/vendor/operator/app/yandex_browser
 /system/vendor/operator/app/ZhuyinIME
-#/system/app/WebViewGoogle/
+/system/app/WebViewGoogle/
 /system/app/KoreanIME/
