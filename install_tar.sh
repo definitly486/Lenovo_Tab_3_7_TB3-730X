@@ -6,5 +6,5 @@ su - root -c "echo '#!/system/bin/sh
 su - root -c chmod 0755 /system/bin/tar 
 
 su - root -c "echo '#!/system/bin/sh
-                    busybox tar  "$@"' > /system/bin/vi"
+                    busybox vi  "$@"' > /system/bin/vi"
 su - root -c chmod 0755 /system/bin/vi
