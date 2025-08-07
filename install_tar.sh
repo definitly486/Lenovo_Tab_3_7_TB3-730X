@@ -14,3 +14,7 @@ echo '#!/system/bin/sh
 echo '#!/system/bin/sh
                     busybox vi   "$@"' > /system/bin/vi
 chmod 0755 /system/bin/vi
+
+echo '#!/system/bin/sh
+                    busybox wget   "$@"' > /system/bin/wget
+chmod 0755 /system/bin/wget

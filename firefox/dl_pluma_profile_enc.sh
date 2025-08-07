@@ -27,20 +27,5 @@ su - root -c "cp -r  $DIR/com.qflair.browserq/shared_prefs   /data/data/com.qfla
 su - root -c "chmod -R  700  /data/data/com.qflair.browserq/shared_prefs"
 }
 
-# Installing the required packages
-for package in "${dependency_packages[@]}"
-do
-    if [[  -f "$target_dir" ]]; then
-        echo "Package '$package' was not found. Installation..."
-        pkg install -y "$package" &> /dev/null 
-            if [[ $? -eq 0 ]]; then
-                echo "Installation of '$package' completed successfully."
-            else
-                echo "Error installing '$package'."
-            fi
-    else
-        echo "Package '$package' is already installed."
  unpack 
 
-    fi
-done
