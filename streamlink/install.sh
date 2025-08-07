@@ -3,7 +3,7 @@ URL=https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/st
 FILE=streamlink_runtime.tar.xz 
 
 if ! [  -f "python3.9_runtime.tar.xz" ]; then
-     curl -L -o  python3.9_runtime.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/python3.9_runtime/python3.9_runtime.tar.xz
+     curl -k -L -o  python3.9_runtime.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/python3.9_runtime/python3.9_runtime.tar.xz
 fi
 
 tar xf python3.9_runtime.tar.xz
@@ -21,7 +21,7 @@ chmod +x  /data/data/com.termux/files/usr/bin/python3
 chmod +x  /data/data/com.termux/files/usr/bin/pip
   
 if ! [  -f  "$FILE" ]; then
-    curl -L -o  $FILE   $URL/$FILE
+    curl -k -L -o  $FILE   $URL/$FILE
 fi
 tar xf streamlink_runtime.tar.xz
 cp -R streamlink/*       /data/data/com.termux/files/usr/lib/python3.9/site-packages
