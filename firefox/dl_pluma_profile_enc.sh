@@ -16,7 +16,7 @@ dependency_packages=(
 unpack () {
 
 if ! [  -f "com.qflair.browserq.tar.xz.enc" ]; then
-     curl -L -o    com.qflair.browserq.tar.xz.enc    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
+     curl -k  -L -o    com.qflair.browserq.tar.xz.enc    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
 fi
 openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in   com.qflair.browserq.tar.xz.enc -out  com.qflair.browserq.tar.xz     -pass pass:$1   
 tar xf com.qflair.browserq.tar.xz
@@ -44,15 +44,3 @@ do
 
     fi
 done
-
-
-if ! [  -f "com.qflair.browserq.tar.xz.enc" ]; then
-     curl -L -o    com.qflair.browserq.tar.xz.enc    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz.enc 
-fi
-openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -e -d  -in   com.qflair.browserq.tar.xz.enc -out  com.qflair.browserq.tar.xz     -pass pass:$1   
-tar xf com.qflair.browserq.tar.xz
-su - root -c "mkdir -p /data/data/com.qflair.browserq"
-su - root -c "cp -r  $DIR/com.qflair.browserq/databases   /data/data/com.qflair.browserq"
-su - root -c "chmod -R  700  /data/data/com.qflair.browserq/databases"
-su - root -c "cp -r  $DIR/com.qflair.browserq/shared_prefs   /data/data/com.qflair.browserq"
-su - root -c "chmod -R  700  /data/data/com.qflair.browserq/shared_prefs"
