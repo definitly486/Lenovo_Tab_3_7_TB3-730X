@@ -1,9 +1,9 @@
 if ! [  -f "framework-res.apk_mod" ]; then
-     curl -L -o framework-res.apk_mod  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/framework-res.apk_mod
+     curl  -k -L -o framework-res.apk_mod  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/framework-res.apk_mod
 fi
 
 if ! [  -f "/data/data/com.termux/files/home/storage/downloads/default_wallpaper.jpg" ]; then
-    curl -L -o /data/data/com.termux/files/home/storage/downloads/default_wallpaper.jpg    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/default_wallpaper.jpg
+    curl -k -L -o /data/data/com.termux/files/home/storage/downloads/default_wallpaper.jpg    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/apk/default_wallpaper.jpg
 fi
 
 if ! [  -f "framework-res.apk_mod" ]; then
