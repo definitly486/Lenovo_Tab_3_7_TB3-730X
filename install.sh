@@ -8,3 +8,5 @@ curl -L -o /data/data/com.termux/files/usr/bin/yt-dlp https://github.com/definit
 chmod +x /data/data/com.termux/files/usr/bin/yt-dlp 
 
 sh streamlink/install.sh
+
+cp termux/getbin.sh    /data/data/com.termux/files/usr/bin/getbin
