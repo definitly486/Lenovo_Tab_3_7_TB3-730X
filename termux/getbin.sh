@@ -1,1 +1,1 @@
- curl -s 'https://api.binance.com/api/v3/ticker/price?symbol=FIOUSDT' | jq -r .price | cut -b 1-7  
+ curl -k -s 'https://api.binance.com/api/v3/ticker/price?symbol=FIOUSDT' | jq -r .price | cut -b 1-7  
