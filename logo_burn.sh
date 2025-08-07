@@ -1,7 +1,7 @@
 #!/bin/bash 
 DIR=$(dirname "$(realpath $0)")
 if ! [  -f "logo.bin_mod" ]; then
-     curl -L -o  logo.bin_mod    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/logo.bin/logo.bin_mod
+     curl -k -L -o  logo.bin_mod    https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/logo.bin/logo.bin_mod
 fi
 
 if ! [  -f "logo.bin_mod" ]; then
