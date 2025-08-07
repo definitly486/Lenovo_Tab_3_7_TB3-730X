@@ -36,12 +36,13 @@ chmod +x  $PATH_TERMUX/bin/pip
 
 }
 
+ if [[ ! -z "$(export | grep TERMUX__HOME)" ]]; then 
 
-if ! [  -z "export | grep TERMUX__HOME" ]; then
-    echo "переменная TERMUX__HOME существует "
+    echo "переменная TERMUX__HOME существует"
     PATH_TERMUX=/data/data/com.termux/files/usr/
     install_python
 else
+    echo "переменная TERMUX__HOME не существует"
     su - root -c "mount -o rw,remount /system"
     PATH_TERMUX=/system
     su_install_python
