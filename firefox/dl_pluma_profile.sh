@@ -1,6 +1,6 @@
 DIR=$(dirname "$(realpath $0)")
 if ! [  -f "com.qflair.browserq.tar.xz" ]; then
-     curl -L -o   com.qflair.browserq.tar.xz   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz
+     curl -k -L -o   com.qflair.browserq.tar.xz   https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.qflair.browserq.tar.xz
 fi
 tar xf com.qflair.browserq.tar.xz
 su - root -c "mkdir -p /data/data/com.qflair.browserq"

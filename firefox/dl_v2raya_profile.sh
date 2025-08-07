@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! [  -f "com.v2ray.ang.tar.xz" ]; then
-   curl -L -o   com.v2ray.ang.tar.xz     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.v2ray.ang.tar.xz
+   curl -k -L -o   com.v2ray.ang.tar.xz     https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/shared/com.v2ray.ang.tar.xz
 fi
 
 tar xf com.v2ray.ang.tar.xz
