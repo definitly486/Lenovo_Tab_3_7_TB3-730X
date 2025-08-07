@@ -12,9 +12,9 @@ su - root -c cp  python3.9_runtime/python3              $PATH_TERMUX/bin
 su - root -c cp  python3.9_runtime/python3.9_bak        $PATH_TERMUX/bin/python3.9
 su - root -c cp  python3.9_runtime/python3.9-config     $PATH_TERMUX/bin/
 su - root -c cp  python3.9_runtime/python3-config       $PATH_TERMUX/bin/
-su - root -c "chmod +x  $PATH_TERMUX/bin/python"
-su - root -c "chmod +x  $PATH_TERMUX/bin/python3"
-su - root -c "chmod +x  $PATH_TERMUX/bin/pip"
+su - root -c "chmod 0755  $PATH_TERMUX/bin/python"
+su - root -c "chmod 0755  $PATH_TERMUX/bin/python3"
+su - root -c "chmod 0755  $PATH_TERMUX/bin/pip"
 
 }
 
