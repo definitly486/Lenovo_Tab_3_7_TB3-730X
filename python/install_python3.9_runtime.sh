@@ -37,7 +37,7 @@ chmod +x  $PATH_TERMUX/bin/pip
 }
 
 
-if [  -f "export | grep TERMUX__HOME" ]; then
+if [  -z "export | grep TERMUX__HOME" ]; then
     echo "переменная TERMUX__HOME существует "
     PATH_TERMUX=/data/data/com.termux/files/usr/
     install_python
