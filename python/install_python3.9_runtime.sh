@@ -48,11 +48,11 @@ else
     PATH_TERMUX=/system
 
 
-if ! [  -f "libcrypo_root.tar.xz" ]; then
-     curl -k  -L -o  libcrypo_root.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/curl_openssl/libcrypo_root.tar.xz
+if ! [  -f "libcrypto_root.tar.xz" ]; then
+     curl -k  -L -o  libcrypto_root.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/curl_openssl/libcrypto_root.tar.xz
 fi
-    tar xf libcrypo_root.tar.xz
-    su - root -c cp      libcrypo_root/*              $PATH_TERMUX/lib64/
+    tar xf libcrypto_root.tar.xz
+    su - root -c cp      libcrypto_root/*              $PATH_TERMUX/lib64/
 
 su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypt.so"
 su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypto.so.1.1"
