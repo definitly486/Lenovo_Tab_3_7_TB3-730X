@@ -26,3 +26,6 @@ su - root -c cp   -R    openssh_libs    $PATH_ROOT/lib64/
 su - root -c "chmod  -R 0755  $PATH_ROOT/lib64/openssh_libs"
 su - root -c cp       ssh   $PATH_ROOT/bin/
 su - root -c "chmod  -R 0755  $PATH_ROOT/bin/ssh"
+
+su - root -c cp       sshd   $PATH_ROOT/bin/
+su - root -c "chmod  -R 0755  $PATH_ROOT/bin/sshd"
