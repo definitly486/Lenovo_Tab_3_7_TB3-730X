@@ -2,6 +2,7 @@
 su - root -c mount -o rw,remount /system
 su - root -c cp /system/bin/tar /system/bin/tar.bak
 
+su - root -c rm   /system/bin/tar
 su - root -c cp tar   /system/bin/
 su - root -c cp  vi      /system/bin/
 su - root -c cp  wget    /system/bin/
