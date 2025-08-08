@@ -1,8 +1,5 @@
-
-
 su_install_python() {
 
-tar xf python3.9_runtime.tar.xz
 su - root -c cp -R python3.9_runtime/python3.9          $PATH_TERMUX/lib/
 su - root -c cp  python3.9_runtime/pip                  $PATH_TERMUX/bin
 su - root -c cp  python3.9_runtime/pip3                 $PATH_TERMUX/bin
@@ -19,9 +16,8 @@ su - root -c "chmod  -R 0755  $PATH_TERMUX/lib/python3.9"
 
 }
 
-
 install_python() {
-tar xf python3.9_runtime.tar.xz
+
 cp -R python3.9_runtime/python3.9          $PATH_TERMUX/lib/
 cp  python3.9_runtime/pip                  $PATH_TERMUX/bin
 cp  python3.9_runtime/pip3                 $PATH_TERMUX/bin
@@ -63,8 +59,10 @@ su - root -c "chmod  -R 0755  $PATH_TERMUX/lib/python3.9"
 fi
 
 
-
-
 if ! [  -f "python3.9_runtime.tar.xz" ]; then
      curl -k  -L -o  python3.9_runtime.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/python3.9_runtime/python3.9_runtime.tar.xz
 fi
+
+if ! [  -d "python3.9_runtime" ]; then
+     tar xf tar xf python3.9_runtime.tar.xz
+fi 
