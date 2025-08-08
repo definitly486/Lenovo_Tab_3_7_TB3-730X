@@ -23,3 +23,4 @@ su - root -c "chmod 0755 /system/bin/slink"
 sh streamlink/install.sh
 cp termux/getbin.sh    /data/data/com.termux/files/usr/bin/getbin
 su - root -c "cp termux/getbin.sh    /system/bin/getbin"
+su - root -c "chmod 0755 /system/bin/getbin"
