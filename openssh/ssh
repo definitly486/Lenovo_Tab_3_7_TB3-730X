@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+export LD_LIBRARY_PATH="/system/lib64/openssh_libs:${LD_LIBRARY_PATH}"
+eval 'exec   /system/usr/openssh_bin/bin/ssh  ${1+"$@"}'
