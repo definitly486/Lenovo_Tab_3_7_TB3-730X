@@ -15,6 +15,7 @@ su - root -c cp  python3.9_runtime/python3-config       $PATH_TERMUX/bin/
 su - root -c "chmod 0755  $PATH_TERMUX/bin/python"
 su - root -c "chmod 0755  $PATH_TERMUX/bin/python3"
 su - root -c "chmod 0755  $PATH_TERMUX/bin/pip"
+su - root -c "chmod  -R 0755  $PATH_TERMUX/lib/python3.9"
 
 }
 
