@@ -57,6 +57,7 @@ fi
 su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypt.so"
 su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypto.so.1.1"
 su - root -c "chmod 0755  $PATH_TERMUX/lib64/libz.so.1"
+su - root -c "chmod 0755  $PATH_TERMUX/lib64/libssl.so.1.1"
 su - root -c "chmod  -R 0755  $PATH_TERMUX/lib/python3.9"
     su_install_python
 fi
