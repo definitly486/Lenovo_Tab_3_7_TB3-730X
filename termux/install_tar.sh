@@ -1,4 +1,4 @@
-#!/system/bin/sh
+
 su - root -c mount -o rw,remount /system
 su - root -c cp /system/bin/tar /system/bin/tar.bak
 
