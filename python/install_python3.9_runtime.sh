@@ -64,5 +64,5 @@ if ! [  -f "python3.9_runtime.tar.xz" ]; then
 fi
 
 if ! [  -d "python3.9_runtime" ]; then
-     tar xf tar xf python3.9_runtime.tar.xz
+      tar xf python3.9_runtime.tar.xz
 fi 
