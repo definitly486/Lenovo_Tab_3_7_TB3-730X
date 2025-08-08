@@ -5,6 +5,6 @@ if ! [  -f "com.v2ray.ang.tar.xz" ]; then
 fi
 
 tar xf com.v2ray.ang.tar.xz
-su - root -c "cp -r  $DIR/com.v2ray.ang /data/data/"
+su - root -c "cp -r  com.v2ray.ang /data/data/"
 su - root -c "chmod -R  755 /data/data/com.v2ray.ang/"
 su - root -c "chown  -R  u0_a205:u0_a205 /data/data/com.v2ray.ang/"
