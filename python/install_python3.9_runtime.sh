@@ -45,6 +45,18 @@ else
     echo "переменная TERMUX__HOME не существует"
     su - root -c "mount -o rw,remount /system"
     PATH_TERMUX=/system
+
+
+if ! [  -f "libcrypo_root.tar.xz" ]; then
+     curl -k  -L -o  libcrypo_root.tar.xz  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/curl_openssl/libcrypo_root.tar.xz
+fi
+    tar xf libcrypo_root.tar.xz
+    su - root -c cp      libcrypo_root/libcrypt.so              $PATH_TERMUX/lib64/
+    su - root -c cp -R   libcrypo_root/libcrypto.so.1.1         $PATH_TERMUX/lib64/
+su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypt.so"
+su - root -c "chmod 0755  $PATH_TERMUX/lib64/libcrypto.so.1.1"
+su - root -c "chmod  -R 0755  $PATH_TERMUX/lib/python3.9"
+
     su_install_python
 fi
 
