@@ -19,5 +19,9 @@ echo '#!/system/bin/sh
                     busybox wget   "$@"' > /system/bin/wget
 chmod 0755 /system/bin/wget
 
+echo '#!/system/bin/sh
+                    busybox killall   "$@"' > /system/bin/killall
+chmod 0755 /system/bin/killall
+
 curl -k -L -o /system/bin/jq  https://github.com/definitly486/Lenovo_Tab_3_7_TB3-730X/releases/download/curl_openssl/jq
 chmod 0755 /system/bin/jq
