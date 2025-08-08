@@ -10,7 +10,7 @@ if ! [  -d openssh_libs"" ]; then
 fi 
 
 
-su - root -c cp      openssh_libs/*              $PATH_TERMUX/lib64/
+su - root -c cp      openssh_libs/*     $PATH_ROOT/lib64/
 su - root -c "chmod 0755  $PATH_ROOT/lib64/libedit.so"
 su - root -c "chmod 0755  $PATH_ROOT/lib64/libcrypto.so"
 su - root -c "chmod 0755  $PATH_ROOT/lib64/libncurses.so"
