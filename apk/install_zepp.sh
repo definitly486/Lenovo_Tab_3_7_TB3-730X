@@ -5,6 +5,8 @@ if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz" ]; 
     curl -L -o /data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz     $URL/$FILE.tar.xz
 fi
 
+cd /data/data/com.termux/files/home/storage/downloads
+
 if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
    tar xf /data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz
 fi
