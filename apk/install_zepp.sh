@@ -6,7 +6,7 @@ if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz" ]; 
 fi
 
 if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
-   tar xf $FILE.tar.xz
+   tar xf /data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz
 fi
 
 
