@@ -5,7 +5,11 @@ if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz" ]; 
     curl -L -o /data/data/com.termux/files/home/storage/downloads/$FILE.tar.xz     $URL/$FILE.tar.xz
 fi
 
-tar xf $FILE.tar.xz
+if ! [  -f "/data/data/com.termux/files/home/storage/downloads/$FILE" ]; then
+   tar xf $FILE.tar.xz
+fi
+
+
 
      su - root -c  "pm install /storage/emulated/0/Download/$FILE"
 
